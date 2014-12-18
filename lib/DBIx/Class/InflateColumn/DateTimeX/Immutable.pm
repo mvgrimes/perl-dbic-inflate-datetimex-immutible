@@ -10,6 +10,8 @@ use DateTimeX::Immutable;
 use Try::Tiny;
 use namespace::autoclean;
 
+our $VERSION = '0.30';
+
 sub _inflate_to_datetime {
     my $self = shift;
     my $rv   = $self->next::method(@_);
@@ -28,6 +30,10 @@ __END__
 =head1 NAME
 
 DBIx::Class::InflateColumn::DateTimeX::Immutable - Inflate/deflate DBIx::Class columns to DateTimeX::Immutable objects
+
+=head1 VERSION
+
+version 0.30
 
 =head1 SYNOPSIS
 
