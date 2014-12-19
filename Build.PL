@@ -24,9 +24,9 @@ my $build = Module::Build->new(
     meta_merge => {
         resources => {
             bugtracker =>
-              'https://github.com/mvgrimes/perl-dbic-datetimex-immutable/issues',
+              'https://github.com/mvgrimes/perl-dbic-inflate-datetimex-immutible/issues',
             repository =>
-              'https://github.com/mvgrimes/perl-dbic-datetimex-immutable'
+              'https://github.com/mvgrimes/perl-dbic-inflate-datetimex-immutible'
         }
     },
 );
