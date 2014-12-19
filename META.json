@@ -30,9 +30,15 @@
       },
       "test" : {
          "requires" : {
-            "Test::Exception" : "0.35",
+            "DBD::SQLite" : "0",
             "Test::More" : "0.87"
          }
+      }
+   },
+   "provides" : {
+      "DBIx::Class::InflateColumn::DateTimeX::Immutable" : {
+         "file" : "lib/DBIx/Class/InflateColumn/DateTimeX/Immutable.pm",
+         "version" : "0.30"
       }
    },
    "release_status" : "stable",

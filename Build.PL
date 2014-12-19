@@ -18,7 +18,7 @@ my $build = Module::Build->new(
 
     test_requires => {
         'Test::More'  => '0.87',
-        'DBI::SQLite' => '0',
+        'DBD::SQLite' => '0',
     },
 
     meta_merge => {
